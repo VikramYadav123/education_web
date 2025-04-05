@@ -1,0 +1,128 @@
+.primary-btn {
+    background-color: #005BFF;
+    color: #FFF;
+    position: relative;
+    border: 1px solid #005BFF;
+    border-radius: 4px;
+    font-family: Sora-SemiBold;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: background-color 0.5s ease, transform 0.3s ease; 
+  }
+  .primary-btn:hover {
+    background-color: #FFF;
+    color: #005BFF;
+    position: relative;
+    border: 1px solid #005BFF;
+    border-radius: 4px;
+    font-family: Sora-SemiBold;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+/* Component Button Here  */
+/* .theme-btn {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-flex;
+    gap: 15px;
+    border: none;
+    text-align: center;
+    background-color: #005BFF;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 20px 30px;
+    padding: 20px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+    i {
+        margin-left: 5px;
+    }
+
+    &::after,&::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: #FFF;
+        transition: 1s ease
+    }
+
+    &::before {
+        top: -2em;
+        left: -2em
+    }
+
+    &::after {
+        left: calc(100% + 2em);
+        top: calc(100% + 2em)
+    }
+
+    &:hover {
+        color: #FFF;
+        box-shadow: none;
+
+        &::after,&::before {
+            height: 410px;
+            width: 410px
+        }
+    }
+
+    &.hover-white {
+        &::after,&::before {
+            background-color: #005BFF;
+        }
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &.yellow-btn {
+        background-color: yellow;
+        color: #000;
+        
+        &::after,&::before {
+            background-color: #FFF;
+        }
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &.red-btn {
+        background-color: red;
+        color: white;
+        
+        &::after,&::before {
+            background-color: #fff;
+        }
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &.pink-btn {
+        background-color: pink;
+        color: white;
+    }
+
+    &.theme-blue-2 {
+        background-color: blue;
+        color: #FFF;
+    } */
+    /* @include breakpoint (max-sm){
+        padding: 18px 30px;
+        font-size: 14px;
+    } */
+/* } */
